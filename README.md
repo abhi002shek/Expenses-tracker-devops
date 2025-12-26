@@ -1,3 +1,26 @@
+# Expenses Tracker – DevOps Deployment
+
+This repository demonstrates an end-to-end DevOps deployment of a 3-tier Java web application.
+
+## DevOps Ownership & Enhancements
+The following DevOps work was implemented by <Abhishek Singh>:
+- Dockerized Spring Boot application using multi-stage builds
+- Docker Compose orchestration (Application + MySQL)
+- AWS EC2 deployment (Ubuntu)
+- Persistent MySQL volumes
+- Production-grade debugging and issue resolution
+- Public deployment accessible via EC2 public IP
+
+## Architecture
+- Presentation Layer: Spring Boot MVC
+- Application Layer: Java / Spring Boot
+- Data Layer: MySQL
+
+## Credits
+Original application source code inspired by @mohamed-elsawy 
+DevOps implementation, containerization, and AWS deployment by <Abhishek Singh>
+
+
 ![Language](https://img.shields.io/badge/language-Java%20-blue.svg)
 ![Technologies](https://img.shields.io/badge/technologies-Spring_boot%20-green.svg)
 ![Technologies](https://img.shields.io/badge/technologies-Spring_MVC%20-green.svg)
